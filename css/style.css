@@ -110,3 +110,38 @@ body{
 #natlan{
     width: 600px;
 }
+
+
+@media screen and (max-width: 600px) {
+    #container-conteudo, 
+    #container-conteudo1, 
+    #container-conteudo2 {
+        width: 80%; 
+        font-size: 1rem; 
+        gap: 20px; 
+    }
+
+    #container-conteudo h2, p,
+    #container-conteudo1 h2, p,
+    #container-conteudo2 h2, p {
+        margin-left: 0; 
+        text-align: justify; 
+    }
+
+    #container-conteudo img, 
+    #container-conteudo1 img, 
+    #container-conteudo2 img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    header {
+        height: auto; 
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.2rem; 
+        text-align: center; 
+    }
+}
