@@ -69,7 +69,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+   
     font-size: 1.2rem;
 }
 
@@ -89,7 +89,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    
     font-size: 1.2rem;
 }
 
@@ -111,6 +111,45 @@ body{
     width: 600px;
 }
 
+/* Estilos gerais para títulos */
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0; /* Espaçamento vertical padrão */
+    font-weight: bold; /* Deixa os títulos com destaque */
+    line-height: 1.4; /* Melhora a legibilidade */
+}
+
+/* Tamanho dos títulos em telas maiores */
+h1 {
+    font-size: 2rem;
+    text-align: center; /* Centraliza o texto */
+    color: #333;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+h4 {
+    font-size: 1.3rem;
+    color: #666;
+}
+
+h5 {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #888;
+    font-style: italic; /* Adiciona um estilo diferenciado ao subtítulo */
+}
 
 @media screen and (max-width: 600px) {
     #container-conteudo, 
